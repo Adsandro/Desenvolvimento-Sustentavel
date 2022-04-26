@@ -1,12 +1,43 @@
 .boxHead{
     background-color: #7FAFF3;
-    height: 500px;
+    height: 600px;
+    position: absolute;
+    width: 100%;
 }
 
 #imgHead{
     width: 35%;
     margin-left:55% ;
     margin-top: 1%;
+    position: absolute;
+}
+
+#titleHead{
+    position: absolute;
+    margin: 10% 0% 0% 20%;
+    color: white;
+    font-weight: 900;
+}
+
+#titleHead>h1{
+    font-weight: 900;
+    margin: 0;
+}
+
+#textHead{
+    z-index: 1;
+    position: absolute;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    margin: 30% 0% 0% 20%;
+    width:60%;
+    font-weight: 600;
+}
+
+#cloudHead{
+    width: 40%;
+    position: absolute;
 }
 
 .navMenu{
@@ -15,12 +46,13 @@
 
 .navMenu>a{
     margin:1%;
+    position: relative;
 }
 
 a{
     color: white;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 26px;
     text-decoration: none;
 }
 
