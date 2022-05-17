@@ -1,0 +1,22 @@
+
+.imgPrincipal{
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.imgSecundariaConteudo{
+    display: flex;
+    padding: 10px 100px;
+    justify-content: center;
+}
+
+.imgSecundaria{
+    width: 200px;
+    padding:0px 50px;
+}
+
+.imgConteudo{
+    width: 600px;
+    
+}
