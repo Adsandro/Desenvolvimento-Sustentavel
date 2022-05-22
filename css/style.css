@@ -5,21 +5,26 @@ body{
 
 .header {
     background-color: #FBC585;
-    padding:30px 130px;
+    padding:0px 130px;
+}
+
+.footer {
+    background-color: #FBC585;
+    padding:0px 130px;
 }
 
 .navBar{
-    padding-top: 15px;
     position: relative;
     text-align: center;
+    display: flex;
 }
 
 .navBar >a{
-    margin: 1%;
+    margin: auto;
     color: black;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .main {
@@ -62,12 +67,28 @@ body{
     background: #F3EEC3;
 }
 
+.boxOrange > p{
+    font-size: 25px;
+    color: black;
+}
+
 .conteudoSec{
     align-items: center;
     display: flex;
 }
 
 .footer{
-    padding:25px 100px;
+    text-align: center;
+    background-color: #FBC585;
+    padding:0px 130px;
 }
 
+.footer > div{
+    padding: 50px;
+}
+
+.footer >div >p{
+    margin:0px 0px 0px 0px;
+    font-size: 20px;
+    text-align: center;
+}
