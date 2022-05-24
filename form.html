@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleForm.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <title>Cadastro no Ecóleo</title>
+</head>
+<body>
+              <div id="logo" class="row default-color">
+                <div class="col-lg-4 offset-md-4" style="text-align: center;">
+                  <img class="logo" src="img/novas imagens/recóleo 2.png" alt="Logo Recóleo">
+                </div>
+              </div>
+              <div class="form_pf">
+                <form>
+                  <div class="row default-color">
+                    <p class="paragrafo default-color">CADASTRO DE PESSOA FÍSICA</p>
+                    <div class="col-md-4 offset-md-1">
+                      <label for="nome" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="nome">
+                    </div>
+                    <div class="col-md-3">
+                      <label for="idade" class="form-label">Idade</label>
+                      <input type="text" class="form-control" id="idade">
+                    </div>
+                    <div class="col-md-3">
+                      <label for="cpf" class="form-label">CPF</label>
+                      <input type="text" class="form-control" id="cpf" maxlength="14">
+                    </div>
+                  </div>
+                  <div class="row default-color">
+                    <div class="col-5 offset-md-1">
+                      <label for="endereco" class="form-label">Endereço</label>
+                      <input type="text" class="form-control" id="endereco" placeholder="Prédio, condomínio, conjunto habitacional">
+                    </div>
+                    <div class="col-md-5">
+                      <label for="cidade" class="form-label">Cidade</label>
+                      <input type="text" class="form-control" id="cidade">
+                    </div>
+                  </div>
+                  <div class="row default-color">
+                    <div class="col-md-4 offset-md-1">
+                      <label for="estado" class="form-label">Estado</label>
+                      <select id="estado" class="form-select">
+                        <option selected>Escolha...</option>
+                        <option>Rio de Janeiro</option>
+                        <option>São Paulo</option>
+                        <option>Minas Gerais</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="cep" class="form-label">CEP</label>
+                      <input type="text" class="form-control" id="cep" maxlength="9">
+                    </div>
+                    <div class="col-md-3">
+                      <label for="qtd" class="form-label">Quantidade de Pessoas</label>
+                      <input type="text" class="form-control" id="qtd">
+                    </div>
+                  </div>
+                  <div class="row default-color">
+                    <div class="col-md-2 p-3 offset-md-5">
+                    <button type="submit" class="btn btn-primary" id="btn-success" onclick="success_pf()">Cadastrar</button>
+                  </div>
+                  </div>
+                  </form>
+                </div>
+                <div class="form_pj">
+                  <form>
+                    <div class="row default-color">
+                      <p class="paragrafo default-color">CADASTRO DE PESSOA JURÍDICA</p>
+                      <div class="col-md-6 offset-md-1">
+                        <label for="nome" class="form-label">Nome da Empresa</label>
+                        <input type="text" class="form-control" id="nome">
+                      </div>
+                      <div class="col-md-4">
+                          <label for="cnpj" class="form-label">CNPJ</label>
+                          <input type="text" class="form-control" id="cnpj" maxlength="18">
+                        </div>
+                    </div>
+                    <div class="row default-color">
+                      <div class="col-md-10 offset-md-1">
+                        <label for="endereco" class="form-label">Endereço</label>
+                        <input type="text" class="form-control" id="endereco">
+                      </div>
+                    </div>
+                    <div class="row default-color">
+                      <div class="col-md-4 offset-md-1">
+                        <label for="cidade" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="cidade">
+                      </div>
+                      <div class="col-md-3">
+                        <label for="estado" class="form-label">Estado</label>
+                        <select id="estado" class="form-select">
+                          <option selected>Escolha...</option>
+                          <option>Rio de Janeiro</option>
+                          <option>São Paulo</option>
+                          <option>Minas Gerais</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="cep" class="form-label">CEP</label>
+                        <input type="text" class="form-control" id="cep" maxlength="9">
+                      </div>
+                    </div>  
+                    <div class="row default-color">
+                      <div class="col-md-2 p-3 offset-md-5">
+                        <button type="submit" class="btn btn-primary" id="btn-success" onclick="success_pj()">Cadastrar</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+        <div class="row footer default-color">
+            <p>©Desenvolvido por Recóleo</p>
+        </div>
+    </div>
+</body>
+</html>
