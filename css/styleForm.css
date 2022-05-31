@@ -1,0 +1,31 @@
+.logo{
+  width: 250px;
+  height: 150px;
+}
+.form_pj{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form_pf{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragrafo{
+  padding: 40px 0px;
+  font-size: 24px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#btn-success{
+  width: 100%;
+  background-color: #f39625;
+  border-color: #76460c;
+  color: #76460c;
+}
+
+.default-color{
+  background-color: #FBC585;
+}

@@ -13,14 +13,14 @@
 <body>
     <div class="container" >
         <header class="header">
-            <nav class="navBar"> 
-                <!-- <img class="navImg" src="img/novas imagens/recóleo 2.png" alt="" srcset=""> -->
-                <a href="">Inicio</a>
-                <a href="">Origem</a>
-                <a href="">Serviços</a>
+            <nav class="navBar" style="width: 500px;"><!--para centralizar coloque margin_left de 300px-->
+                <img style="width:200px;" class="navImg" src="img/novas imagens/recóleo 2.png" alt="" srcset="">
+                <a href="#Inicio">Inicio</a>
+                <a href="#Origem">Origem</a>
+                <a href="#Trabalhamos">Serviços</a>
             </nav>
             <div class="main">
-                <div class="conteudoMain">
+                <div id="Inicio" class="conteudoMain">
                     <h2 class="titulo">O DESCARTE DE ÓLEO E AS CAUSAS NO MEIO AMBIENTE.</h2>
                     <img class="imgPrincipal" src="img/novas imagens/logo_recóleo-removebg-preview.png" alt="Oleo de cozinha">
                 </div>
@@ -28,7 +28,7 @@
             </div>
         </header>
         <div class="boxWhite">
-            <h3 class="subTitulo">Como trabalhamos</h3>
+            <h3 id="Trabalhamos" class="subTitulo">Como trabalhamos</h3>
                 <p class="paragrafo">Trabalhamos com comunidades integradas a fazer do mundo um lugar melhor, conectando o seu lar a sustentabilidade. Atuando principalmente em condomínios, prédios e conjuntos habitacionais, com o auxílio de nosso aplicativo, podemos recolher o material direto de seu lar, levando-o direto para nosso centro de coleta, em seguida, aguardamos a demanda de corporativas parceiras para realizar o transporte seguro até seu destino, para ser feita a devida reciclagem.</p>
                 <div class="imgSecundariaConteudo">
                     <img class="imgSecundaria" src="img/pasta.png" alt="tinta">
@@ -70,8 +70,29 @@
                 <p class="paragrafo">Se você tem interesse de cadastrar sua empresa especializada em fazer a reutilização ou reciclagem do óleo de cozinha, apenas com o cadastro em nosso aplicativo e o pagamento de uma devida taxa mensalmente entregaremos nossos barris diretamente em sua empresa, sendo rápidos e eficientes no transporte. Em poucos cliques sua empresa pode se transformar em uma corporativa parceira da Recóleo!
                 </p>
         </div>
+        
+        <div id="Origem" class="boxOrange" style="text-align: center;">
+                <p>Desenvolvido para um mundo melhor, Recóleo.</p>
+                <div>
+                    <a href="form.html" target="_blank"><input type="button" id="btn" class="button-4" value="Cadastra-se"><a/>
+                </div>
+                <video width="320" height="240" controls="controls" loop style="padding-bottom:10px;">
+                <source src="img/novas imagens/video.mp4" type="video/mp4">
+        </div>
         <footer class="footer">
-
+            <div>
+                <p>Desenvolvido por:</p>
+                <p>Tiago</p>
+                <p>Adsandro</p>
+                <p>Luiza</p>
+                <p>Nicolas</p>
+                <p>Pedro</p>
+                <p>© 2022</p>
+            </div>
+            <div>
+                <p>Contate-nos pelo e-mail:</p>
+                <p>recoleo@gmail.com.br</p>
+            </div>
         </footer>
     </div>
 </body>
